@@ -21,9 +21,9 @@ public
   def to_text
     %Q(
     Temperature:
-      #{celsius} ' °C'
-      #{fahrenheit} ' °F'
-      #{kelvin} ' K')
+      #{celsius}  °C
+      #{fahrenheit}  °F
+      #{kelvin}  K)
   end
 
   def to_json
